@@ -6,16 +6,17 @@
 <head>
     <meta charset="utf-8">
     <title>Erin Fough's Page</title>
-    <link rel="stylesheet" type="text/css" href={% static 'mypage/mypage.css' %}>
+    <link rel="stylesheet" type="text/css" href={% static 'mypage/index.css' %}>
 </head>
 <body>
-  <header>
-    <h1>Erin L. Fough</h1>
-    <h2>Perceptive Lover of Ordered Disorder</h2>
-  </header>
-  <section>
-    <img alt="" src={% static 'mypage/initialsv3.png' %}>
-  </section>
+  <div>
+    <img id="headshot" alt="" src={% static 'mypage/argoNmePNG.png'%}>
+    <div>
+      <h1>Erin L. Fough</h1>
+      <h2>Perceptive Lover of Ordered Disorder</h2>
+      <img id="initials" alt="" src={% static 'mypage/initialsv3.png' %}>
+    </div>
+  </div>
   <nav>
     <a href="">Bio</a>
     <a href="">Github</a>
