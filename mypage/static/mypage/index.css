@@ -14,27 +14,27 @@ body{
   background-color: #6BDBFA;
   display:flex;
   flex-direction: column;
-  /*text-align: center;
-  align-items: center;
-  justify-content: center;
-  align-content: center;*/
+  justify-content: space-around;
+  /*align-items: center;*/
+  /*text-align: center;*/
+  /*align-content: center;*/
 }
 body div{
   display:flex;
   flex-direction: row;
-  flex:2
+  flex-basis:auto
 }
 body div div{
   display:flex;
   flex-direction: column;
 }
 nav {
-  flex:1
+  flex:auto;
 }
 a{
   font-size: 1.25em;
   padding:0.5em;
 }
-#headshot{
+img{
   display:block;
 }
