@@ -7,34 +7,54 @@
 /*figure width from the bottom up
 figure height from inside out*/
 
-
-
 body{
   font-family:"Candara", sans-serif;
   background-color: #6BDBFA;
-  display:flex;
+  display:flex;;
   flex-direction: column;
   justify-content: space-around;
-  /*align-items: center;*/
+  align-items:center;;
   /*text-align: center;*/
-  /*align-content: center;*/
+  align-content: center;
 }
 body div{
   display:flex;
   flex-direction: row;
-  flex-basis:auto
-}
-body div div{
-  display:flex;
-  flex-direction: column;
+  justify-content: space-around;
+  margin: 2em 1em;
+  flex:1;
 }
 nav {
-  flex:auto;
+  flex:1;
+  margin: 1em;
 }
-a{
-  font-size: 1.25em;
-  padding:0.5em;
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 1.5em;
+  font-style: oblique;
+}
+nav{
+  font-size: 1.5em;
+  margin: 1em;
+}
+nav a {
+  padding: 1em;
+}
+footer a {
+  padding: 1em;
 }
 img{
   display:block;
+}
+.sidebar{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  margin: 1em;
+}
+#initials{
+  width:30%;
 }
