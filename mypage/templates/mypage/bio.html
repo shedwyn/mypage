@@ -1,23 +1,27 @@
+{% load staticfiles %}
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <title>Erin Fough's Page</title>
-    <link rel="stylesheet" type="text/css" href="bio.css">
+    <link rel="stylesheet" type="text/css" href={% static 'mypage/bio.css' %}>
 </head>
 <body>
   <section>
     <a href="mypage.html">HOME</a>
+    <img alt="" src={% static 'mypage/sheep.jpg' %}>
   </section>
   <section>
-    <h2>Erin L. Fough</h2>
+    <h1>Erin L. Fough</h1>
   </section>
   <section>
     <p>
-      I was born and raised in the Willamette Valley of Oregon to Ralph and
-      Patricia Fough.  Graduated with a B.A. in Theatre from Lewis & Clark
-      College in Portland, OR.
+      I am a native Oregonian who has also lived in Chicago, New York, and
+      Denver.
+      I finished bootcamp at PDX Code Guild in June 2016.  I have experience
+      working in Python, Javascript, HTML5, CSS, jQuery, and Django.
     </p>
   </section>
 </body>
