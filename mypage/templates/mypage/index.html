@@ -9,36 +9,40 @@
     <link rel="stylesheet" type="text/css" href={% static 'mypage/index.css' %}>
 </head>
 <body>
-  <!-- main -->
-  <div>
-    <!-- sidebarleft -->
-    <div class="sidebar">
-      <img id="headshot" alt="" src={% static 'mypage/argoNme.jpg'%}>
-      <img id="initials" alt="" src={% static 'mypage/initialsv3.png' %}>
-    </div>
-    <!-- /sidebarleft -->
-    <!-- sidebarright -->
-    <div class="sidebar">
-      <h1>Erin L. Fough</h1>
-      <h2>Perceptive Lover of Ordered Disorder</h2>
-      <img alt="" src={% static 'mypage/sheep.jpg' %}>
-    </div>
-    <!-- /sidebarright -->
-  </div>
-  <!-- /main -->
   <!-- nav -->
   <nav>
     <a href="">Bio</a>
     <a href="">Projects</a>
     <a href="">Links (forthcoming)</a>
-    <a href="">Blog (forthcoming)</a>
+    <a href="">Random (forthcoming)</a>
   </nav>
   <!-- /nav -->
+  <!-- main -->
+  <div>
+    <!-- barleft -->
+    <div class="sidebar-l">
+      <img id="headshot" alt="" src={% static 'mypage/argoNme.jpg'%}>
+    </div>
+    <!-- /barleft -->
+    <!-- barright -->
+    <div class="sidebar-r">
+      <h1>Erin L. Fough</h1>
+      <h2>
+        <p id="l-1">Perceptive</p>
+        <p id="l-2">Lover</p>
+        <p id="l-3">of</p>
+        <p id="l-4">Ordered</p>
+        <p id="l-5">Disorder</p>
+      </h2>
+
+    </div>
+    <!-- /barright -->
+  </div>
+  <!-- /main -->
   <!-- footer -->
   <footer>
     <a href="">Github</a>
     <a href="">LinkedIn</a>
-    <a href="mailto:shedwyn@gmail.com?subject=Visited%20Your%20Portfolio">Send Email</a>
   </footer>
   <!-- /footer -->
 
