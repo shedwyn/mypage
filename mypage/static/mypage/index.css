@@ -1,20 +1,15 @@
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
+
 /*figure width from the bottom up
 figure height from inside out*/
 
 body{
   font-family:"Candara", sans-serif;
-  background-color: #6BDBFA;
+  background-color: #90B5D4;
+  /*background-image: "{% static 'mypage/bio.css' %}";*/
   display:flex;;
   flex-direction: column;
   justify-content: space-around;
-  align-items:center;;
-  /*text-align: center;*/
+  align-items:center;
   align-content: center;
 }
 body div{
@@ -22,7 +17,7 @@ body div{
   flex-direction: row;
   justify-content: space-around;
   margin: 2em 1em;
-  flex:1;
+  flex:4;
 }
 nav {
   flex:1;
@@ -42,19 +37,50 @@ nav{
 nav a {
   padding: 1em;
 }
+footer{
+  flex:1;
+}
 footer a {
   padding: 1em;
 }
 img{
   display:block;
+  border-style: solid;
+  border-width: thin;
 }
-.sidebar{
+.sidebar-r{
   display:flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
+  align-self: flex-end;
+  flex: 1;
+  margin: 1em;
+}
+.sidebar-l{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
   flex: 1;
   margin: 1em;
 }
 #initials{
-  width:30%;
+  max-width:30%;
+  border-style: none;
+}
+#l-1{
+  margin-left: 3em;
+}
+#l-2{
+  margin-left: 5em;
+}
+#l-3{
+  margin-left: 4em;
+}
+#l-4{
+  margin-left: 2em;
+}
+#l-5{
+  margin-left: 3em;
 }
