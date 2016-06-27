@@ -22,5 +22,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.render_index_page, name='index_page'),
     url(r'^bio/$', views.render_bio, name='bio'),
-    # url(r'^projects/$', views.render_projects, name='projects')
+    url(r'^projects/$', views.render_projects, name='projects')
 ]

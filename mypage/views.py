@@ -26,3 +26,9 @@ def render_bio(request):
     """render bio page"""
     page_fill = {}
     return render(request, 'mypage/bio.html', page_fill)
+
+
+def render_projects(request):
+    """render projects page"""
+    page_fill = {}
+    return render(request, 'mypage/projects.html', page_fill)

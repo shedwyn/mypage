@@ -8,3 +8,23 @@
     <title>Erin Fough's Page</title>
     <link rel="stylesheet" type="text/css" href={% static 'mypage/bio.css' %}>
 </head>
+<body>
+  <!-- nav -->
+  <nav>
+    <a href={% url 'index_page' %}>Home</a>
+    <a href={% url 'bio' %}>Bio</a>
+    <a href="">Links <em>(forthcoming)</em></a>
+    <a href="">Random <em>(forthcoming)</em></a>
+  </nav>
+  <!-- /nav -->
+  <div>
+    <h1>
+      Under Construction
+    </h1>
+    <h2>
+      Please visit me on <a href="https://www.linkedin.com/in/erin-l-fough">LinkedIn</a>
+      or <a href="https://github.com/shedwyn">Github</a>
+    </h2>
+    <img alt="" src={% static 'mypage/Bernice.jpg'%}>
+  </div>
+</body>
