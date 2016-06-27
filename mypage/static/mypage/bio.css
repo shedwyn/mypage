@@ -1,23 +1,34 @@
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
 /*figure width from the bottom up
 figure height from inside out*/
 
 body{
   font-family:"Candara", sans-serif;
-  background-color: #6BDBFA;
-  display:flex;
+  background-color: #90B5D4;
+  /*background-image: url(yellowstone.jpg);*/
+  display:flex;;
   flex-direction: column;
-  text-align: justify;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  align-items:center;
   align-content: center;
 }
-a{
-  font-size: 1.25em;
-  padding:0.5em;
+img{
+  display: block;
+}
+nav{
+  flex:1;
+  font-size: 1.5em;
+  margin: 1em;
+}
+nav a {
+  padding: 1em;
+}
+p{
+  text-align: left;
+}
+.title{
+  font-size: 1em;
+  font-weight: bold;
+}
+.texty{
+  align-self:flex-start;
 }

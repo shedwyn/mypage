@@ -5,23 +5,82 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Erin Fough's Page</title>
+    <title>Erin Fough's Bio Page</title>
     <link rel="stylesheet" type="text/css" href={% static 'mypage/bio.css' %}>
 </head>
 <body>
-  <section>
-    <a href="mypage.html">HOME</a>
-    <img alt="" src={% static 'mypage/sheep.jpg' %}>
-  </section>
-  <section>
-    <h1>Erin L. Fough</h1>
-  </section>
-  <section>
+  <!-- nav -->
+  <nav>
+    <a href={% url 'index_page' %}>Home</a>
+    <a href="">Projects</a>
+    <a href="">Links <em>(forthcoming)</em></a>
+    <a href="">Random <em>(forthcoming)</em></a>
+  </nav>
+  <!-- /nav -->
+  <img alt="" src={% static 'mypage/sheep.jpg' %}>
+  <div>
+    <p>
+      <em>
+        (The wool from the cute little piebald ewe is washed and waiting to
+        spin)
+      </em>
+    </p>
+  </div>
+  <div class="texty">
+    <p class="title">About Me:</p>
+    <p>
+      The last name is pronounced the same as "dough" or "faux".  Yes, my
+      initials do spell "elf".  No, I am not at all embarrassed by it.  Some of
+      my favorite people call me "elf".
+    </p>
+    <p>
+      And yes, the web address is a play on "faux fur" only it is "fough fibre"
+      because I am a spinning hobbiest with about 20+ pounds of washed but
+      unprocessed sheep's wool in her spare room.
+    </p>
     <p>
       I am a native Oregonian who has also lived in Chicago, New York, and
       Denver.
+    </p>
+    <p>
       I finished bootcamp at PDX Code Guild in June 2016.  I have experience
       working in Python, Javascript, HTML5, CSS, jQuery, and Django.
     </p>
-  </section>
+    <p>
+      Find me on
+      <a href="https://www.linkedin.com/in/erin-l-fough">LinkedIn</a> or
+      <a href="https://github.com/shedwyn">Github</a>
+    </p>
+  </div>
+  <div class="texty">
+    <p class="title">
+      Hobbies and Things I Love
+    </p>
+    <p>
+      <a href="https://www.instagram.com/argothecocker/">Argo Ralph Fough</a>
+      - my beloved English Cocker Spaniel.  While Argo has an Instagram page, I
+      do not.  Nor will you find me on Twitter, Pinterest, or Facebook.
+
+    </p>
+    <p>
+      Hiking, Backpacking, Camping.  I have not gone hiking or backpacking in
+      almost a year, which is remarkable.  I started camping and hiking only
+      after I left Oregon.  I started backpacking when I lived in Colorado.
+    </p>
+    <p>Spinning.  Not the fitness kind, the fiber kind.  </p>
+    <p>
+      Travel - I've done a little, but I'd like to do more.  I've lived in a
+      few different places, but I have itchy feet.  Happy to be in Oregon for
+      now, but I hear the siren call of other places all the time.
+    </p>
+    <p>
+      USA States I've been through/to: Washington, Oregon, California,
+      Arizona, Utah, Idaho, Montana, Wyoming, Colorado, New Mexico, Texas,
+      Kansas, Nebraska, Iowa, Minnesota, Wisconsin, Illinois, Ohio, Pennsylvania,
+      New York, Deleware, Virginia, Georgia
+    </p>
+    <p>
+      Other Countries I've been to: Mexico, Ireland, Italy
+    </p>
+  </div>
 </body>
