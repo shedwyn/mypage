@@ -13,7 +13,7 @@ body{
 }
 img{
   display: block;
-  max-height: 50%;
+  max-height: 300px;
 }
 nav{
   flex:1;
