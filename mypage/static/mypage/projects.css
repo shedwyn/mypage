@@ -1,0 +1,25 @@
+/*figure width from the bottom up
+figure height from inside out*/
+
+body{
+  font-family:"Candara", sans-serif;
+  background-color: #90B5D4;
+  /*background-image: url(yellowstone.jpg);*/
+  display:flex;;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+  align-content: center;
+}
+img{
+  display: block;
+  max-height: 50%;
+}
+nav{
+  flex:1;
+  font-size: 1.5em;
+  margin: 1em;
+}
+nav a {
+  padding: 1em;
+}
