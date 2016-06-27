@@ -19,10 +19,6 @@ body div{
   margin: 2em 1em;
   flex:4;
 }
-nav {
-  flex:1;
-  margin: 1em;
-}
 h1 {
   font-size: 2.5em;
 }
@@ -31,6 +27,7 @@ h2 {
   font-style: oblique;
 }
 nav{
+  flex:1;
   font-size: 1.5em;
   margin: 1em;
 }
